@@ -1,0 +1,8 @@
+target :test do
+  signature "sig"
+
+  check "lib"
+  check "scripts"
+
+  # library "pathname", "set"       # Standard libraries
+end

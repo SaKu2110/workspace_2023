@@ -1,0 +1,9 @@
+# TypeProf 0.21.7
+
+# Revealed types
+#  scripts/daydream_runner.rb:4 #=> String
+
+# Classes
+class Daydream
+  def self.run: (String s) -> String
+end
