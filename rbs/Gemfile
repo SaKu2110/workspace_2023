@@ -2,6 +2,6 @@
 
 source "https://rubygems.org"
 
-gem 'rbs', '2.8.0', require: false
-gem 'typeprof', '0.21.7', require: false
-gem 'steep', '1.3.0', require: false
+gem 'rbs', '~> 3.1'
+gem 'typeprof', '~> 0.21.7'
+gem 'steep', '~> 1.4'
