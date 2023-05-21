@@ -3,6 +3,6 @@
 class Daydream
   def self.run(s)
     s = s.match(/^(dream|dreamer|erase|eraser)+$/)
-    s.length == 0 ? "YES" : 'NO'
+    s.nil? ? "NO" : s.length == 0 ? "YES" : 'NO'
   end
 end
